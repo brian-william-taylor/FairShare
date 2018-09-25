@@ -1,0 +1,58 @@
+body{
+
+}
+
+#navbarDropdownNotificationLink{
+
+}
+#navbarDropdownNotificationLink.dropdown-toggle::after{
+    content: none;
+}
+
+#navbarDropdownMenuLink > i{
+  padding-top: -6px;
+  padding-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header{
+  background-color: #3c65a8;
+  color: #FFFFFF;
+}
+
+.nav-link{
+    color: #E8E8E8;
+}
+
+.active-header{
+  height: 100%;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 5px;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+
+.card-total{
+  font-size: 35px;
+  text-align: center;
+  color: #424242  ;
+}
+
+
+.invalid-feedback{
+  color: red;
+}
+
+.card{
+  margin: 20px;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
